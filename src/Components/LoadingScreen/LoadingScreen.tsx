@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class LoadingScreen extends Component {
-  render() {
+  render(): JSX.Element {
     return (
       <div>
         LoadingScreen

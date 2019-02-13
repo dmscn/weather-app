@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class SearchScreen extends Component {
-  render() {
+  render(): JSX.Element {
     return (
       <div>
         SearchScreen
