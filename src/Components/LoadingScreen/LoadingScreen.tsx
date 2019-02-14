@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Input from '@material-ui/core/Input';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 import styles from './LoadingScreen.module.css'
 
@@ -17,6 +18,7 @@ export default class LoadingScreen extends Component<Props> {
             'aria-label': 'Location',
           }}
         />
+        <CircularProgress />
       </section>
     )
   }
