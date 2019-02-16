@@ -18,11 +18,67 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "SearchScreen",
+      "children": Array [
+        <TextField
+          inputProps={
+            Object {
+              "aria-label": "Search Box",
+            }
+          }
+          label="Location"
+          onChange={[Function]}
+          placeholder="Location"
+          required={false}
+          select={false}
+          value=""
+          variant="standard"
+        />,
+        <WithStyles(Button)
+          className="Button"
+          onClick={[Function]}
+        >
+          Search
+        </WithStyles(Button)>,
+      ],
+      "className": "Container",
     },
     "ref": null,
-    "rendered": "SearchScreen",
-    "type": "div",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputProps": Object {
+            "aria-label": "Search Box",
+          },
+          "label": "Location",
+          "onChange": [Function],
+          "placeholder": "Location",
+          "required": false,
+          "select": false,
+          "value": "",
+          "variant": "standard",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Search",
+          "className": "Button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Search",
+        "type": [Function],
+      },
+    ],
+    "type": "main",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -30,11 +86,67 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "SearchScreen",
+        "children": Array [
+          <TextField
+            inputProps={
+              Object {
+                "aria-label": "Search Box",
+              }
+            }
+            label="Location"
+            onChange={[Function]}
+            placeholder="Location"
+            required={false}
+            select={false}
+            value=""
+            variant="standard"
+          />,
+          <WithStyles(Button)
+            className="Button"
+            onClick={[Function]}
+          >
+            Search
+          </WithStyles(Button)>,
+        ],
+        "className": "Container",
       },
       "ref": null,
-      "rendered": "SearchScreen",
-      "type": "div",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputProps": Object {
+              "aria-label": "Search Box",
+            },
+            "label": "Location",
+            "onChange": [Function],
+            "placeholder": "Location",
+            "required": false,
+            "select": false,
+            "value": "",
+            "variant": "standard",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Search",
+            "className": "Button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Search",
+          "type": [Function],
+        },
+      ],
+      "type": "main",
     },
   ],
   Symbol(enzyme.__options__): Object {

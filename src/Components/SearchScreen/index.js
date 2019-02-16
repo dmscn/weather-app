@@ -1,2 +1,2 @@
-export {default} from './ResultScreen';
-export * from './ResultScreen';
+export {default} from './SearchScreen';
+export * from './SearchScreen';

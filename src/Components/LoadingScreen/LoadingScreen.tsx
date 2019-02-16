@@ -4,7 +4,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 import styles from './LoadingScreen.module.css'
 
-interface Props {
+export interface Props {
   location: string,
 }
 export default class LoadingScreen extends Component<Props> {
