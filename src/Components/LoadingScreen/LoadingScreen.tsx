@@ -10,9 +10,10 @@ interface Props {
 export default class LoadingScreen extends Component<Props> {
   render(): JSX.Element {
     return (
-      <section className={styles.Conainer}>
+      <section className={styles.Container}>
         <Input
           disabled
+          className={styles.Input}
           value={this.props.location}
           inputProps={{
             'aria-label': 'Location',
