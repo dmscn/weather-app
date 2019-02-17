@@ -12,8 +12,11 @@ export default class App extends Component<any, State> {
     loading: false,
   }
 
-  locationSubmit = (location: string): void => {
-    this.setState({location});
+  locationSubmit = async (location: string): Promise<any> => {
+    await this.setState({location, loading: true});
+    let result = await fetch(`${process.env.WEATHER_API_BASE_URL}?q=${location}`);
+    result = await result.json();
+    console.log(result);
   }
   
   render(): JSX.Element {

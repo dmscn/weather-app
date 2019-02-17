@@ -11,7 +11,7 @@ export default class UIButton extends Component<any> {
       <div className={classNames(styles.Container, this.props.className)}>
         <Button
           color="primary"
-          variant="raised"
+          variant="contained"
           {...rest}
         >
           {children}
