@@ -7,6 +7,10 @@
   height: 100vh;
 }
 
+.TextField {
+  width: 25vw;
+}
+
 .Button {
   margin-top: 3.5em;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import TextField from '../UI/TextField';
+import Button from '../UI/Button';
 
 import styles from './SearchScreen.module.css';
 
@@ -30,6 +30,7 @@ export default class SearchScreen extends Component<Props, State> {
     return (
       <main className={styles.Container}>
         <TextField
+          className={styles.TextField}
           id="LocationInput"
           label="Location"
           placeholder="Location"
@@ -40,7 +41,6 @@ export default class SearchScreen extends Component<Props, State> {
           }}
         />
         <Button
-          variant="raised"
           onClick={this.onSubmit}
         >
           Search
