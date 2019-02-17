@@ -3,7 +3,9 @@
 exports[`<SearchScreen /> renders 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SearchScreen />,
+  Symbol(enzyme.__unrendered__): <SearchScreen
+    onSubmit={[Function]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -20,6 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <TextField
+          id="LocationInput"
           inputProps={
             Object {
               "aria-label": "Search Box",
@@ -34,8 +37,8 @@ ShallowWrapper {
           variant="standard"
         />,
         <WithStyles(Button)
-          className="Button"
           onClick={[Function]}
+          variant="raised"
         >
           Search
         </WithStyles(Button)>,
@@ -49,6 +52,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "id": "LocationInput",
           "inputProps": Object {
             "aria-label": "Search Box",
           },
@@ -70,8 +74,8 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "Search",
-          "className": "Button",
           "onClick": [Function],
+          "variant": "raised",
         },
         "ref": null,
         "rendered": "Search",
@@ -88,6 +92,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <TextField
+            id="LocationInput"
             inputProps={
               Object {
                 "aria-label": "Search Box",
@@ -102,8 +107,8 @@ ShallowWrapper {
             variant="standard"
           />,
           <WithStyles(Button)
-            className="Button"
             onClick={[Function]}
+            variant="raised"
           >
             Search
           </WithStyles(Button)>,
@@ -117,6 +122,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "id": "LocationInput",
             "inputProps": Object {
               "aria-label": "Search Box",
             },
@@ -138,8 +144,8 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "Search",
-            "className": "Button",
             "onClick": [Function],
+            "variant": "raised",
           },
           "ref": null,
           "rendered": "Search",
