@@ -13,10 +13,13 @@ describe('<SearchScreen />', () => {
   it('changes text', () => {
     const wrapper: any = shallow(<SearchScreen onSubmit={() => {}}/>);
     const spy = jest.spyOn(wrapper.instance(), 'handleOnChange');
-    const mEvent = { target: { name: 'Location', value: 'a'}};
 
-    wrapper.find('#LocationInput').simulate('change', mEvent);
+    wrapper.find('#LocationInput').simulate('change', { target: { value: 'a' }});
     expect(wrapper.state()).toEqual({text: 'a'});
+ 
+    wrapper.instance().handleOnChange({ target: { value: 'b'}});
+    expect(spy).toHaveBeenCalled();
+    expect(wrapper.state()).toEqual({ text: 'b'});
   })
 
   it('submits when button clicked', () => {
