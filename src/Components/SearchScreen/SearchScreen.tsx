@@ -29,22 +29,26 @@ export default class SearchScreen extends Component<Props, State> {
     const { text } = this.state;
     return (
       <main className={styles.Container}>
-        <TextField
-          className={styles.TextField}
-          id="LocationInput"
-          label="Location"
-          placeholder="Location"
-          value={text}
-          onChange={this.handleOnChange}
-          inputProps={{
-            'aria-label': 'Search Box',
-          }}
-        />
-        <Button
-          onClick={this.onSubmit}
-        >
-          Search
-        </Button>
+        <form onSubmit={this.onSubmit}>
+          <TextField
+            autoFocus
+            className={styles.TextField}
+            id="LocationInput"
+            label="Location"
+            placeholder="Location"
+            value={text}
+            onChange={this.handleOnChange}
+            inputProps={{
+              'aria-label': 'Search Box',
+            }}
+          />
+          <Button
+            type="submit"
+            onClick={this.onSubmit}
+          >
+            Search
+          </Button>
+        </form>
       </main>
     )
   }

@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ResultScreen /> renders 1`] = `
+exports[` 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ResultScreen />,
+  Symbol(enzyme.__unrendered__): <HeaderInfo
+    location="Rio de Janeiro"
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -18,12 +20,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": undefined,
+      "children": "Rio de Janeiro",
       "className": "Container",
     },
     "ref": null,
-    "rendered": null,
-    "type": "main",
+    "rendered": "Rio de Janeiro",
+    "type": "section",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -31,12 +33,12 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
+        "children": "Rio de Janeiro",
         "className": "Container",
       },
       "ref": null,
-      "rendered": null,
-      "type": "main",
+      "rendered": "Rio de Janeiro",
+      "type": "section",
     },
   ],
   Symbol(enzyme.__options__): Object {

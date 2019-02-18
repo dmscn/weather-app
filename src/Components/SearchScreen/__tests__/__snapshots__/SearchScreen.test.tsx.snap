@@ -20,8 +20,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <form
+        onSubmit={[Function]}
+      >
         <UITextField
+          autoFocus={true}
           className="TextField"
           id="LocationInput"
           inputProps={
@@ -33,59 +36,25 @@ ShallowWrapper {
           onChange={[Function]}
           placeholder="Location"
           value=""
-        />,
+        />
         <UIButton
           onClick={[Function]}
+          type="submit"
         >
           Search
-        </UIButton>,
-      ],
+        </UIButton>
+      </form>,
       "className": "Container",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "TextField",
-          "id": "LocationInput",
-          "inputProps": Object {
-            "aria-label": "Search Box",
-          },
-          "label": "Location",
-          "onChange": [Function],
-          "placeholder": "Location",
-          "value": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Search",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "Search",
-        "type": [Function],
-      },
-    ],
-    "type": "main",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <UITextField
+            autoFocus={true}
             className="TextField"
             id="LocationInput"
             inputProps={
@@ -100,11 +69,12 @@ ShallowWrapper {
           />,
           <UIButton
             onClick={[Function]}
+            type="submit"
           >
             Search
           </UIButton>,
         ],
-        "className": "Container",
+        "onSubmit": [Function],
       },
       "ref": null,
       "rendered": Array [
@@ -113,6 +83,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "autoFocus": true,
             "className": "TextField",
             "id": "LocationInput",
             "inputProps": Object {
@@ -134,12 +105,117 @@ ShallowWrapper {
           "props": Object {
             "children": "Search",
             "onClick": [Function],
+            "type": "submit",
           },
           "ref": null,
           "rendered": "Search",
           "type": [Function],
         },
       ],
+      "type": "form",
+    },
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          onSubmit={[Function]}
+        >
+          <UITextField
+            autoFocus={true}
+            className="TextField"
+            id="LocationInput"
+            inputProps={
+              Object {
+                "aria-label": "Search Box",
+              }
+            }
+            label="Location"
+            onChange={[Function]}
+            placeholder="Location"
+            value=""
+          />
+          <UIButton
+            onClick={[Function]}
+            type="submit"
+          >
+            Search
+          </UIButton>
+        </form>,
+        "className": "Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <UITextField
+              autoFocus={true}
+              className="TextField"
+              id="LocationInput"
+              inputProps={
+                Object {
+                  "aria-label": "Search Box",
+                }
+              }
+              label="Location"
+              onChange={[Function]}
+              placeholder="Location"
+              value=""
+            />,
+            <UIButton
+              onClick={[Function]}
+              type="submit"
+            >
+              Search
+            </UIButton>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoFocus": true,
+              "className": "TextField",
+              "id": "LocationInput",
+              "inputProps": Object {
+                "aria-label": "Search Box",
+              },
+              "label": "Location",
+              "onChange": [Function],
+              "placeholder": "Location",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Search",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Search",
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
       "type": "main",
     },
   ],
