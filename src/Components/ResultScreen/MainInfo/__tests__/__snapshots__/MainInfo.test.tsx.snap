@@ -20,16 +20,22 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h4 />,
-        <i
-          className="wi wi-owm-undefined"
-          style={
-            Object {
-              "fontSize": "8em",
+        <div
+          className="weatherBox"
+        >
+          <h4
+            className="weatherTitle"
+          />
+          <i
+            className="wi wi-owm-undefined"
+            style={
+              Object {
+                "fontSize": "8em",
+              }
             }
-          }
-        />,
-        <h4 />,
-        <h4 />,
+          />
+          <h4 />
+        </div>,
         <h4 />,
       ],
       "className": "Container",
@@ -52,36 +58,63 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "className": "wi wi-owm-undefined",
-          "style": Object {
-            "fontSize": "8em",
+          "children": Array [
+            <h4
+              className="weatherTitle"
+            />,
+            <i
+              className="wi wi-owm-undefined"
+              style={
+                Object {
+                  "fontSize": "8em",
+                }
+              }
+            />,
+            <h4 />,
+          ],
+          "className": "weatherBox",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "weatherTitle",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h4",
           },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "i",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "h4",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "h4",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "wi wi-owm-undefined",
+              "style": Object {
+                "fontSize": "8em",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h4",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -105,16 +138,22 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h4 />,
-          <i
-            className="wi wi-owm-undefined"
-            style={
-              Object {
-                "fontSize": "8em",
+          <div
+            className="weatherBox"
+          >
+            <h4
+              className="weatherTitle"
+            />
+            <i
+              className="wi wi-owm-undefined"
+              style={
+                Object {
+                  "fontSize": "8em",
+                }
               }
-            }
-          />,
-          <h4 />,
-          <h4 />,
+            />
+            <h4 />
+          </div>,
           <h4 />,
         ],
         "className": "Container",
@@ -137,36 +176,63 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "wi wi-owm-undefined",
-            "style": Object {
-              "fontSize": "8em",
+            "children": Array [
+              <h4
+                className="weatherTitle"
+              />,
+              <i
+                className="wi wi-owm-undefined"
+                style={
+                  Object {
+                    "fontSize": "8em",
+                  }
+                }
+              />,
+              <h4 />,
+            ],
+            "className": "weatherBox",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "weatherTitle",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h4",
             },
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "i",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "h4",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "h4",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "wi wi-owm-undefined",
+                "style": Object {
+                  "fontSize": "8em",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h4",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,

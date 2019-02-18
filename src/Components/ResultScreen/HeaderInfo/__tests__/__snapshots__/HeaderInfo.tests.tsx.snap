@@ -24,12 +24,12 @@ ShallowWrapper {
         <h1
           className="Header"
         >
-          Rio de Janeiro
+          undefined, undefined
         </h1>,
         <h4
           className="Subtitle"
         >
-          Segunda-feira, 18 de Fevereiro de 2019 às 18:11
+          Segunda-feira, 18 de Fevereiro de 2019 às 19:16
         </h4>,
       ],
       "className": "Container",
@@ -41,11 +41,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Rio de Janeiro",
+          "children": "undefined, undefined",
           "className": "Header",
         },
         "ref": null,
-        "rendered": "Rio de Janeiro",
+        "rendered": "undefined, undefined",
         "type": "h1",
       },
       Object {
@@ -53,11 +53,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+          "children": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
           "className": "Subtitle",
         },
         "ref": null,
-        "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+        "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
         "type": "h4",
       },
     ],
@@ -73,12 +73,12 @@ ShallowWrapper {
           <h1
             className="Header"
           >
-            Rio de Janeiro
+            undefined, undefined
           </h1>,
           <h4
             className="Subtitle"
           >
-            Segunda-feira, 18 de Fevereiro de 2019 às 18:11
+            Segunda-feira, 18 de Fevereiro de 2019 às 19:16
           </h4>,
         ],
         "className": "Container",
@@ -90,11 +90,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Rio de Janeiro",
+            "children": "undefined, undefined",
             "className": "Header",
           },
           "ref": null,
-          "rendered": "Rio de Janeiro",
+          "rendered": "undefined, undefined",
           "type": "h1",
         },
         Object {
@@ -102,11 +102,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+            "children": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
             "className": "Subtitle",
           },
           "ref": null,
-          "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+          "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
           "type": "h4",
         },
       ],

@@ -1,3 +1,37 @@
 .Container {
-  display: grid;
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.Icon {
+  font-size: 8em;
+  font-weight: 200;
+}
+
+.weatherBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WeatherTitle {
+  font-size: 2em;
+  font-weight: 200;
+  margin: 0 0;
+}
+
+.Temperature {
+  font-size: 2em;
+  font-weight: 400;
+  margin: .2em 0;
+}
+
+.MainTemperature {
+  font-size: 3em;
+  margin: .5em 0;
+  font-weight: bold;
 }
