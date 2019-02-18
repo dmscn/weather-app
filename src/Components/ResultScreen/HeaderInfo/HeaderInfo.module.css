@@ -1,3 +1,13 @@
 .Container {
-  
+  text-align: center;
+}
+
+.Header {
+  font-size: 2.5em;
+  margin-bottom: .1em;
+}
+
+.Subtitle {
+  font-size: 1em;
+  color: #cecece;
 }

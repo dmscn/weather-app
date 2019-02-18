@@ -18,11 +18,83 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "MainInfo",
+      "children": Array [
+        <h4 />,
+        <i
+          className="wi wi-owm-undefined"
+          style={
+            Object {
+              "fontSize": "8em",
+            }
+          }
+        />,
+        <h4 />,
+        <h4 />,
+        <h4 />,
+      ],
       "className": "Container",
     },
     "ref": null,
-    "rendered": "MainInfo",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "wi wi-owm-undefined",
+          "style": Object {
+            "fontSize": "8em",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "i",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h4",
+      },
+    ],
     "type": "section",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -31,11 +103,83 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "MainInfo",
+        "children": Array [
+          <h4 />,
+          <i
+            className="wi wi-owm-undefined"
+            style={
+              Object {
+                "fontSize": "8em",
+              }
+            }
+          />,
+          <h4 />,
+          <h4 />,
+          <h4 />,
+        ],
         "className": "Container",
       },
       "ref": null,
-      "rendered": "MainInfo",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "wi wi-owm-undefined",
+            "style": Object {
+              "fontSize": "8em",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h4",
+        },
+      ],
       "type": "section",
     },
   ],

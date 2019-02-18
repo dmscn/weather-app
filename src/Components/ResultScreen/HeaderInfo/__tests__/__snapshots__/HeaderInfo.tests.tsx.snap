@@ -21,11 +21,15 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
+        <h1
+          className="Header"
+        >
           Rio de Janeiro
         </h1>,
-        <h4>
-          Monday, February 18, 2019 4:15 PM
+        <h4
+          className="Subtitle"
+        >
+          Segunda-feira, 18 de Fevereiro de 2019 às 18:11
         </h4>,
       ],
       "className": "Container",
@@ -38,6 +42,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Rio de Janeiro",
+          "className": "Header",
         },
         "ref": null,
         "rendered": "Rio de Janeiro",
@@ -48,10 +53,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Monday, February 18, 2019 4:15 PM",
+          "children": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+          "className": "Subtitle",
         },
         "ref": null,
-        "rendered": "Monday, February 18, 2019 4:15 PM",
+        "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
         "type": "h4",
       },
     ],
@@ -64,11 +70,15 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
+          <h1
+            className="Header"
+          >
             Rio de Janeiro
           </h1>,
-          <h4>
-            Monday, February 18, 2019 4:15 PM
+          <h4
+            className="Subtitle"
+          >
+            Segunda-feira, 18 de Fevereiro de 2019 às 18:11
           </h4>,
         ],
         "className": "Container",
@@ -81,6 +91,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Rio de Janeiro",
+            "className": "Header",
           },
           "ref": null,
           "rendered": "Rio de Janeiro",
@@ -91,10 +102,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Monday, February 18, 2019 4:15 PM",
+            "children": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
+            "className": "Subtitle",
           },
           "ref": null,
-          "rendered": "Monday, February 18, 2019 4:15 PM",
+          "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 18:11",
           "type": "h4",
         },
       ],
