@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
+exports[`<HeaderInfo /> renders 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <HeaderInfo
@@ -20,11 +20,41 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "Rio de Janeiro",
+      "children": Array [
+        <h1>
+          Rio de Janeiro
+        </h1>,
+        <h4>
+          Monday, February 18, 2019 4:15 PM
+        </h4>,
+      ],
       "className": "Container",
     },
     "ref": null,
-    "rendered": "Rio de Janeiro",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Rio de Janeiro",
+        },
+        "ref": null,
+        "rendered": "Rio de Janeiro",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Monday, February 18, 2019 4:15 PM",
+        },
+        "ref": null,
+        "rendered": "Monday, February 18, 2019 4:15 PM",
+        "type": "h4",
+      },
+    ],
     "type": "section",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -33,11 +63,41 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Rio de Janeiro",
+        "children": Array [
+          <h1>
+            Rio de Janeiro
+          </h1>,
+          <h4>
+            Monday, February 18, 2019 4:15 PM
+          </h4>,
+        ],
         "className": "Container",
       },
       "ref": null,
-      "rendered": "Rio de Janeiro",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Rio de Janeiro",
+          },
+          "ref": null,
+          "rendered": "Rio de Janeiro",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Monday, February 18, 2019 4:15 PM",
+          },
+          "ref": null,
+          "rendered": "Monday, February 18, 2019 4:15 PM",
+          "type": "h4",
+        },
+      ],
       "type": "section",
     },
   ],

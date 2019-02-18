@@ -4,7 +4,7 @@ import ResultScreen from "../ResultScreen";
 
 describe('<ResultScreen />', () => {
   it('renders', () => {
-    const wrapper = shallow(<ResultScreen />);
+    const wrapper = shallow(<ResultScreen data={{name: 'Rio de Janeiro'}}/>);
     expect(wrapper).toMatchSnapshot();
   })
 });

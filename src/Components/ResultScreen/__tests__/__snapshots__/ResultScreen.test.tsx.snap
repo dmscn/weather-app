@@ -3,7 +3,13 @@
 exports[`<ResultScreen /> renders 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ResultScreen />,
+  Symbol(enzyme.__unrendered__): <ResultScreen
+    data={
+      Object {
+        "name": "Rio de Janeiro",
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -18,11 +24,41 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": undefined,
+      "children": Array [
+        <HeaderInfo
+          location="Rio de Janeiro"
+        />,
+        <span>
+           (icon) 
+        </span>,
+      ],
       "className": "Container",
     },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "location": "Rio de Janeiro",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " (icon) ",
+        },
+        "ref": null,
+        "rendered": " (icon) ",
+        "type": "span",
+      },
+    ],
     "type": "main",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -31,11 +67,41 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
+        "children": Array [
+          <HeaderInfo
+            location="Rio de Janeiro"
+          />,
+          <span>
+             (icon) 
+          </span>,
+        ],
         "className": "Container",
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "location": "Rio de Janeiro",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " (icon) ",
+          },
+          "ref": null,
+          "rendered": " (icon) ",
+          "type": "span",
+        },
+      ],
       "type": "main",
     },
   ],
