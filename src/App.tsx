@@ -22,15 +22,20 @@ export default class App extends Component<any, State> {
 
   locationSubmit = async (location: string): Promise<any> => {
     await this.setState({location, loading: true});
-    const result: any = (await axios.get(`${WEATHER_API_BASE_URL}/weather?q=${location}&APPID=${APPID}`)).data;
-    const description: any = (await axios.get(`${WEATHER_API_BASE_URL}/forecast?id=${result.id}&APPID=${APPID}&lang=pt`)).data;
-    console.log('Response from Open Weather: ', { ...result, ...description });
-    this.setState({ 
-      weatherData: { 
-        ...result,
-        ...description,
-      } 
-    });
+    try {
+      const result: any = (await axios.get(`${WEATHER_API_BASE_URL}/weather?q=${location}&APPID=${APPID}`)).data;
+      const description: any = (await axios.get(`${WEATHER_API_BASE_URL}/forecast?id=${result.id}&APPID=${APPID}&lang=pt`)).data;
+      console.log('Response from Open Weather: ', { ...result, ...description });
+      this.setState({ 
+        weatherData: { 
+          ...result,
+          ...description,
+        },
+        loading: false,
+      });
+    } catch(err) {
+      this.setState({loading: false});
+    }
   }
   
   render(): JSX.Element {
