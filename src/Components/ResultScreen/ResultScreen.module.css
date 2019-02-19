@@ -6,3 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+
+hr {
+  display: block;
+  width: 70vw;
+  margin: 2em 0;
+}
