@@ -2,11 +2,14 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dmscn.github.io/weather-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
@@ -49,6 +52,7 @@
     "@types/react-dom": "^16.8.2",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.1",
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.4",
     "typescript": "^3.3.3"
