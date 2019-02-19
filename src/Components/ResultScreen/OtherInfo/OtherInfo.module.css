@@ -1,3 +1,7 @@
 .Container {
   display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 200;
 }

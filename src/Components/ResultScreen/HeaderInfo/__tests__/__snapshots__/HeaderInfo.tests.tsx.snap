@@ -29,7 +29,7 @@ ShallowWrapper {
         <h4
           className="Subtitle"
         >
-          Segunda-feira, 18 de Fevereiro de 2019 às 19:16
+          Terça-feira, 19 de Fevereiro de 2019 às 17:59
         </h4>,
       ],
       "className": "Container",
@@ -53,11 +53,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
+          "children": "Terça-feira, 19 de Fevereiro de 2019 às 17:59",
           "className": "Subtitle",
         },
         "ref": null,
-        "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
+        "rendered": "Terça-feira, 19 de Fevereiro de 2019 às 17:59",
         "type": "h4",
       },
     ],
@@ -78,7 +78,7 @@ ShallowWrapper {
           <h4
             className="Subtitle"
           >
-            Segunda-feira, 18 de Fevereiro de 2019 às 19:16
+            Terça-feira, 19 de Fevereiro de 2019 às 17:59
           </h4>,
         ],
         "className": "Container",
@@ -102,11 +102,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
+            "children": "Terça-feira, 19 de Fevereiro de 2019 às 17:59",
             "className": "Subtitle",
           },
           "ref": null,
-          "rendered": "Segunda-feira, 18 de Fevereiro de 2019 às 19:16",
+          "rendered": "Terça-feira, 19 de Fevereiro de 2019 às 17:59",
           "type": "h4",
         },
       ],

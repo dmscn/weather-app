@@ -18,11 +18,78 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "OtherInfo",
+      "children": Array [
+        <h4>
+          Umidade: 
+          %
+        </h4>,
+        <h4>
+          Nascer do Sol: 
+          Invalid date
+        </h4>,
+        <h4>
+          Pôr do Sol: 
+          Invalid date
+        </h4>,
+      ],
       "className": "Container",
     },
     "ref": null,
-    "rendered": "OtherInfo",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Umidade: ",
+            undefined,
+            "%",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Umidade: ",
+          undefined,
+          "%",
+        ],
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Nascer do Sol: ",
+            "Invalid date",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Nascer do Sol: ",
+          "Invalid date",
+        ],
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Pôr do Sol: ",
+            "Invalid date",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Pôr do Sol: ",
+          "Invalid date",
+        ],
+        "type": "h4",
+      },
+    ],
     "type": "section",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -31,11 +98,78 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "OtherInfo",
+        "children": Array [
+          <h4>
+            Umidade: 
+            %
+          </h4>,
+          <h4>
+            Nascer do Sol: 
+            Invalid date
+          </h4>,
+          <h4>
+            Pôr do Sol: 
+            Invalid date
+          </h4>,
+        ],
         "className": "Container",
       },
       "ref": null,
-      "rendered": "OtherInfo",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Umidade: ",
+              undefined,
+              "%",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Umidade: ",
+            undefined,
+            "%",
+          ],
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Nascer do Sol: ",
+              "Invalid date",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Nascer do Sol: ",
+            "Invalid date",
+          ],
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Pôr do Sol: ",
+              "Invalid date",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Pôr do Sol: ",
+            "Invalid date",
+          ],
+          "type": "h4",
+        },
+      ],
       "type": "section",
     },
   ],
